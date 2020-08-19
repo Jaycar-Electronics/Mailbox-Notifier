@@ -4,29 +4,11 @@ Get a quick alert on your phone when you get a new letter in the mailbox!
 
 ![hero image](hero.jpg)
 
-----
-- [Mailbox Notifier](#Mailbox-Notifier)
-  - [Desigining](#Desigining)
-    - [Objectives and requirements](#Objectives-and-requirements)
-    - [Bill of Materials](#Bill-of-Materials)
-  - [Using](#Using)
-    - [Room for improvement](#Room-for-improvement)
-
-## Desigining
+## What it does
 
 Eagerly waiting for a letter to come in the mail, I was held back checking the mailbox every day, which interrupted my ability to go into town when I needed (just in case I missed the letter arriving)
 
 I figured _**"there must be a better way!"**_ - and set out to design a system that can alert me on the phone when the mail comes in.
-
-### Objectives and requirements
-
-The design of this system has to:
-
-1. Be triggered by a new envelope entering the mailbox.
-2. Alert me on my phone, no matter where I am.
-3. Be relatively long-lasting, without me having to replace batteries every day.
-
-It really comes down to two components, _mail detection_ and _mail notification_ and they are both exceedingly simple to do; I figured I can use the <https://ifttt.com> service with the trusty **ESP8266**
 
 ### Bill of Materials
 
